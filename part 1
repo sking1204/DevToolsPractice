@@ -1,0 +1,16 @@
+Part One:
+HTTP (Hypertext Transfer Protocol) is a set of rules that specifies how to communicate between a browser and a web server.
+URL (Uniform Resource Locator) – a reference to a web resource that specifies it’s location on a computer network and process for retrieving it
+DNS (Domain Name System) – will take a hostname and translate it into a corresponding IP address
+IP Address – a unique address to find that computer on a network
+QUERY STRING – provides extra information to the URL (search terms, info from forms, etc.)
+2 HTTP Verbs: GET & POST
+GET – requests without side effects (doesn’t change server data)
+POST – request with side effects (changes data on the server)
+
+HTTP request: information requested by the web browser from a server
+HTTP response: information requested from a server sent to the web browser
+HTTP header: provides additional information about the request or response
+What happens when you type a URL in the browser: DNS takes the hostname and translates it into a corresponding IP address, the browser makes a request to the IP address, the server sends a response,
+If successful, browser makess a DOM from the HTML and finds any other resources needed (images,css, javascsript) and makes separate HTTP requests for those resources and the server responds to each request.
+ 
